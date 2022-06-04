@@ -20,6 +20,7 @@
   "devDependencies": {
     "nodemon": "^2.0.16"
   },
+  "type": "module",
   "author": "",
   "license": "ISC"
 }
