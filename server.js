@@ -26,6 +26,7 @@ app.use(express.json());
 app.use(express.urlencoded({ extended: false }));
 
 app.use("/", require("./routes/recipeRoutes"));
+app.use("/users", require("./routes/userRoutes"));
 
 app.use(errorHandler);
 
